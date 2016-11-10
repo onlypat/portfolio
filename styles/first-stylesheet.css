@@ -57,14 +57,14 @@ header {
   margin-left: -0.67em;
   color: white;
     font-family: roboto;
-  width: 400px;
-  height: 400px;
+  width: 25em;
+  height: 25em;
   float: left;
 }
 
 .subhead1 {
   float: left;
-  width: 400px;
+  
   
   margin-left: 3em;
   font-size: 4rem;
@@ -76,7 +76,7 @@ header {
 }
 .headshot {
   float: right;
-  width: 400px;
+  width: 25em;
   
 
 }
