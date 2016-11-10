@@ -1,7 +1,4 @@
-p, h2, img, ol {
-  margin-left:13rem;
-  margin-right: 13rem;
-}
+
 h1, h2, h3, h4 {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
@@ -16,15 +13,12 @@ a {
 p {
   font-family: 'Roboto', sans-serif;
 }
-nav {
-  font-family: roboto;
-  margin-left: 2em;
-  padding-bottom:  1em;
-}
+
 nav a {
   color: white;
   text-decoration: none;
   display: inline-block;
+  margin-left: 2em;
 }
 nav a:hover {
   text-decoration: underline;
@@ -32,7 +26,6 @@ nav a:hover {
 footer a {
   color: white;
   font-size: 1.5rem;
-  margin-left: 
 }
 footer a:hover {
   color: blue;
@@ -40,20 +33,14 @@ footer a:hover {
 img:hover {
   opacity: 0.75;
 }
-header, footer {
-  background-color: black;
-  margin-left: -0.67em;
-  margin-right: -0.67em;
-  color: white;
-  padding-top: 1em;
-}
+
 h1 {
   margin-left: 1em;
 }
 footer {
   padding-bottom: 8em;
-  margin-left:-12rem;
-  margin-right: -12rem;
+
+  background-color: black;
 }
 small:hover {
   text-decoration: underline;
@@ -61,19 +48,63 @@ small:hover {
 ol {
   font-family: roboto;
 }
-        @media only screen and (min-width: 480px) and (max-width: 767px) { 
-          article {
-            margin-left: -10em;
-          }
-      }
 
-      @media only screen and (max-width: 479px) { 
-              article {
-            margin-left: -10em;
-            
-          }
-        p {
-          min-width: 10em;
-        }
-      }
-      
+
+
+header {
+  background-color: black;
+  float: left;
+  margin-left: -0.67em;
+  color: white;
+    font-family: roboto;
+  width: 400px;
+  height: 400px;
+  float: left;
+}
+
+.subhead1 {
+  float: left;
+  width: 400px;
+  
+  margin-left: 3em;
+  font-size: 4rem;
+  margin-top:10rem;
+  
+}
+.subhead1:hover {
+  color: gray;
+}
+.headshot {
+  float: right;
+  width: 400px;
+  
+
+}
+.content {
+  clear: both;
+  float: left;
+  
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 0
+  
+}
+footer {
+  clear: both;
+  color: white;
+  height: 5rem;
+  padding-left: 40rem;
+  padding-top: 8rem;
+  margin: 0;
+}
+.projects {
+  clear: both;
+  margin: 50px;
+  padding-top: 1rem;
+}
+small {
+  text-align: center;
+}
+.icons {
+  margin-left: 2rem;
+}

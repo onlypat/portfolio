@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="shortcut icon" href="/foundations/week2/portfolio/favicon.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
     <link rel="stylesheet" href="styles/first-stylesheet.css">
     <script src="https://use.fontawesome.com/09049666cb.js"></script>
@@ -21,8 +20,9 @@
       </nav>
     </header>
     <main>
-      <article>
-        <h2>Examples of my work</h2>
+      <h2 class="subhead1">my projects</h2>
+      <img src="images/headshot.jpg" class="headshot">
+      <article class="projects">
         <ol>
           <li>
             <h3>semantic tags.</h3>
@@ -90,14 +90,15 @@
         <small>&copy; 2016, Patrick O'Neal
         </small>
       </p>
-      <p>
         <!--I nested these icons this way because if I were to put the anchor tag down one line, it creates an underscore when viewed in browser -->
-        <a href="https://github.com/onlypat" target="_blank">
-          <i class="fa fa-github" aria-hidden="true"></i></a>
-        <a href="https://www.linkedin.com/in/patrick-o-neal-411b6067?trk=nav_responsive_tab_profile" target="_blank">
-          <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-        <a href="mailto:poneal59@gmail.com">
-          <i class="fa fa-envelope" aria-hidden="true"></i></a>
+        <div class="icons">
+          <a href="https://github.com/onlypat" target="_blank">
+            <i class="fa fa-github" aria-hidden="true"></i></a>
+          <a href="https://www.linkedin.com/in/patrick-o-neal-411b6067?trk=nav_responsive_tab_profile" target="_blank">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+          <a href="mailto:poneal59@gmail.com">
+            <i class="fa fa-envelope" aria-hidden="true"></i></a>
+        </div>
         <noscript>
           <small>
             <a href="https://github.com/onlypat" target="_blank">GitHub |</a>
@@ -105,7 +106,6 @@
             <a href="mailto:poneal59@gmail.com">Email</a>
           </small>
         </noscript>
-      </p>
     </footer>
   </body>
 </html>
